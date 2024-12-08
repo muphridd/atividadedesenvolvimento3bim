@@ -1,0 +1,6 @@
+<h1>Detalhes do Autor</h1>
+<p><strong>Nome:</strong> {{ autor.nome }}</p>
+<p><strong>Data de Nascimento:</strong> {{ autor.data_nascimento }}</p>
+<a href="{% url 'editar_autor' autor.pk %}">Editar</a> |
+<a href="{% url 'excluir_autor' autor.pk %}">Excluir</a>
+<a href="{% url 'lista_autores' %}">Voltar</a>  

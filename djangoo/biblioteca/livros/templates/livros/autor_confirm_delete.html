@@ -1,0 +1,7 @@
+<h1>Excluir Autor</h1>
+<p>Tem certeza de que deseja excluir "{{ autor.nome }}"?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Sim, excluir</button>
+</form>
+<a href="{% url 'lista_autores' %}">Cancelar</a> | <a href="{% url 'lista_autores' %}">Voltar</a>  
