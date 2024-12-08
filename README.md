@@ -1,2 +1,0 @@
-# atividadedesenvolvimento3bim
-🗯️
